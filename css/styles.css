@@ -1,0 +1,115 @@
+body {
+	line-height: 1.5rem;
+    background: url('../images/bg.jpg');
+     text-align: center;
+}
+body,h1,ul {
+	margin: 0px;
+	padding:  0px;
+}
+.box {
+    display: inline-block;
+    width: 49%;
+    padding: 30px 0;
+}
+li {
+    list-style: none;
+    padding: 5px;  
+}
+.comment {
+	padding: 30px 0;
+}
+.buttom {
+	width: 30%;
+}
+textarea {
+	height: 40px;
+}
+
+.error {
+    color: red;
+} 
+header {
+	background: url('../images/back.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+
+}
+header img {
+    width: 200px;
+}
+header .title {
+	text-align: center;
+	padding-top: 40px;
+}    
+ 
+/*Styling Body*/
+h1{
+font-size: 35px;
+font-family: oswald;
+color: #000;
+}
+
+h2,h3{
+    text-align:  center; 
+    font-family: oswald;
+}
+
+a{
+color: #fff;
+text-decoration: none;
+}
+
+
+/*Styling Contact Page*/
+ .contact h1{
+    text-align: center;
+}
+
+.form-control{
+width: 940px;
+}
+
+/*Styling Background Page*/
+.background{
+ text-align: center;
+ padding: 20px;
+}
+
+.background p{
+    padding: 10px 235px;
+}
+
+form {
+    padding: 50px;
+    border: 1px solid;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form input,textarea {
+    width: 70%;
+}
+
+
+/*Footer Section*/
+footer{
+    background-color: #8B95C9;
+    margin-top: 50px; 
+    text-align: center;
+}
+
+footer h3 {
+    color: #fff;
+}
+ 
+
+footer li {
+    list-style: none;
+    line-height: 2.5;
+    display: inline-block;
+    padding: 10px;
+}
+ 
+ 
